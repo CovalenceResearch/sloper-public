@@ -1,1 +1,1 @@
-Create a calculator for ESRD costs, based on eGFR slopes (following the approach by Durkin & Blais, 2021 Diabetes Ther)
+Create a calculator for ESRD costs, based on eGFR slopes (following the approach by Durkin & Blais, 2021 Diabetes Ther, doi: 10.1007/s13300-020-00953-4)
