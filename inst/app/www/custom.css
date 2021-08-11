@@ -1,0 +1,39 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* HTML */
+
+html {
+  font-size: 14px;
+}
+
+/* Headings */
+
+h2 {
+  margin: 10px auto;
+  color: #249bc9;
+  text-align: left
+}
+
+/* Forms */
+.form-control {
+  border-radius: 0px;
+}
+
+/* Sidebar panel */
+.well {
+ background-color: #FFFFFF;
+}
+
+.well label {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.well h4 {
+  color: #249bc9;
+}
+
+.well h5 {
+  font-style: italic;
+}
