@@ -10,7 +10,7 @@ numericInputSlope <- function(id, label = NULL) {
                label = label,
                min = -20,
                max = 20,
-               value = 0.0,
+               value = -2,
                step = 0.01,
                width = "100%")
 }
