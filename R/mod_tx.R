@@ -15,13 +15,13 @@ mod_tx_ui <- function(id, ...){
     numericInputSlope(ns("slope_central_acute"), "Central value"),
     shinyWidgets::numericRangeInput(ns("slope_range_acute"),
                                     "Lower and upper values",
-                                    value = c(-4, 4),
+                                    value = c(-3, 0),
                                     separator = ""),
     h5("Chronic eGFR slope"),
     numericInputSlope(ns("slope_central_chronic"), "Central value"),
     shinyWidgets::numericRangeInput(ns("slope_range_chronic"),
                                     "Lower and upper values",
-                                    value = c(-4, 4),
+                                    value = c(-3, -1),
                                     separator = ""),
   )
 }
