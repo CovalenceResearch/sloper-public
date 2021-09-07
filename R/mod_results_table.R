@@ -161,7 +161,7 @@ mod_results_table_server <- function(id, data){
                                       "cost_display",
                                       "cost_incr_display"))) |> 
         dplyr::rename(
-          'Tx' = .data$tx,
+          'Treatment' = .data$tx,
           'Slope' = .data$stats,
           'TTD' = .data$time_value_display,
           '\u0394TTD' = .data$time_incr_display,
