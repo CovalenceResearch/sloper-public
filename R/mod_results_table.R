@@ -70,17 +70,13 @@ mod_results_table_server <- function(id, data){
                                          nsmall = 2,
                                          big.mark = ","),
                                   " years later with ",
-                                  tx_1(),
-                                  " than with ",
-                                  tx_2()),
+                                  tx_1()),
           .data$time_incr < 0  ~ paste0(format(abs(.data$time_incr),
                                          digits = 2,
                                          nsmall = 2,
                                          big.mark = ","),
                                   " years earlier with ",
-                                  tx_1(),
-                                  " than with ",
-                                  tx_2()),
+                                  tx_1()),
           is.na(.data$time_incr) ~ ""
         )) |> 
         dplyr::mutate(age_round =
@@ -128,8 +124,7 @@ mod_results_table_server <- function(id, data){
                                                nsmall = 2,
                                                scientific = FALSE,
                                                big.mark = ","),
-                                        " more with ", tx_1(),
-                                        " than with ", tx_2()),
+                                        " more with ", tx_1()),
           cost_incr < 0  ~ paste0(currency(),
                                         " ",
                                         format(abs(cost_incr),
@@ -137,8 +132,7 @@ mod_results_table_server <- function(id, data){
                                                nsmall = 2,
                                                scientific = FALSE,
                                                big.mark = ","),
-                                        " less with ", tx_1(),
-                                        " than with ", tx_2()),
+                                        " less with ", tx_1()),
           is.na(cost_incr) ~ ""
         )) |> 
         dplyr::mutate(cost_display = 
