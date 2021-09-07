@@ -19,8 +19,8 @@ app_ui <- function(request) {
           mod_egfr_data_ui("egfr_data_ui_1"),
           h4("Treatments"),
           splitLayout(
-            mod_tx_ui("tx_ui_1", tx_value = "Treatment 1"),
-            mod_tx_ui("tx_ui_2", tx_value = "Treatment 2")
+            mod_tx_ui("tx_ui_1", tx_value = "Tx 1"),
+            mod_tx_ui("tx_ui_2", tx_value = "Tx 2")
             ),
           h4("Population"),
           numericInput("base_age",
