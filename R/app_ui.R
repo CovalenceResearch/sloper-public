@@ -48,11 +48,11 @@ app_ui <- function(request) {
             )
           ),
         mainPanel(
-          h2("eGFR over time"),
-          mod_egfr_plot_ui("egfr_plot_ui_1"),
-          hr(),
           h2("Time to dialysis (TTD, years) and discounted dialysis costs"),
           mod_results_table_ui("results_table_ui_1"),
+          hr(),
+          h2("eGFR over time"),
+          mod_egfr_plot_ui("egfr_plot_ui_1"),
           hr(),
           h2("Methods and sources"),
           p(
