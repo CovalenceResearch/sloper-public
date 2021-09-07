@@ -50,10 +50,8 @@ app_ui <- function(request) {
         mainPanel(
           h2("Time to dialysis (TTD, years) and discounted dialysis costs"),
           mod_results_table_ui("results_table_ui_1"),
-          hr(),
           h2("eGFR over time"),
           mod_egfr_plot_ui("egfr_plot_ui_1"),
-          hr(),
           h2("Methods and sources"),
           p(
             HTML(
@@ -66,7 +64,7 @@ app_ui <- function(request) {
               <li>Time spent on  dialysis is the time between initiation of 
                     dialysis and death, assuming no competing risks. Expected 
                     remaining life-years of patients with 
-                    end-stage renal disease (ESRD) on dialysis come from the 
+                    ESRD on dialysis come from  
                     <a href='https://adr.usrds.org/2020/end-stage-renal-disease/5-mortality' 
                     target='_blank'>2020 USRDS Annual Data Report, ESRD 
                     Volume, Ch. 5</a> and are from 2018. Data were averaged, 
