@@ -126,6 +126,7 @@ mod_results_table_server <- function(id, data){
                                         format(abs(cost_incr),
                                                digits = 2,
                                                nsmall = 2,
+                                               scientific = FALSE,
                                                big.mark = ","),
                                         " more with ", tx_1(),
                                         " than with ", tx_2()),
@@ -134,6 +135,7 @@ mod_results_table_server <- function(id, data){
                                         format(abs(cost_incr),
                                                digits = 2,
                                                nsmall = 2,
+                                               scientific = FALSE,
                                                big.mark = ","),
                                         " less with ", tx_1(),
                                         " than with ", tx_2()),
@@ -148,6 +150,7 @@ mod_results_table_server <- function(id, data){
                           TRUE ~ format(.data$cost, 
                                         digits = 2,
                                         nsmall = 2,
+                                        scientific = FALSE,
                                         big.mark = ",")
                         )) |> 
         dplyr::mutate(stats = dplyr::case_when(
