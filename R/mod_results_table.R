@@ -82,17 +82,17 @@ mod_results_table_server <- function(id, data){
         dplyr::mutate(age_round =
                           plyr::round_any(
                             .data$age,
-                            sloper::usrds_esrd_mort_2018$group_years[1],
+                            sloper::usrds_esrd_mort_2019$group_years[1],
                             floor
                         )
                       ) |> 
         dplyr::mutate(age_round = dplyr::case_when(
           .data$age_round > 
-            max(sloper::usrds_esrd_mort_2018$age_min, na.rm = TRUE) ~
-            max(sloper::usrds_esrd_mort_2018$age_min),
+            max(sloper::usrds_esrd_mort_2019$age_min, na.rm = TRUE) ~
+            max(sloper::usrds_esrd_mort_2019$age_min),
           TRUE ~ age_round
         )) |> 
-        dplyr::left_join(sloper::usrds_esrd_mort_2018 |> 
+        dplyr::left_join(sloper::usrds_esrd_mort_2019 |> 
                            dplyr::select(dplyr::all_of(c("age_min",
                                                          "remaining_years"))),
                          by = c("age_round" = "age_min")) |> 
