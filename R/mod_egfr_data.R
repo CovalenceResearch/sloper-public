@@ -13,11 +13,13 @@ mod_egfr_data_ui <- function(id){
   tagList(
     splitLayout(
       numericInputEGFR(ns("base_egfr"),
-                       "Baseline eGFR",
-                       value = 90),
+                       HTML(paste0("Baseline eGFR (mL/min/1.73m", tags$sup("2"), ")")),
+                       value = 90,
+                       width = "100%"),
       numericInputEGFR(ns("dial_threshold"),
-                       "eGFR threshold for dialysis",
-                       value = 10)
+                       HTML(paste0("Dialysis at eGFR (mL/min/1.73m", tags$sup("2"), ")")),
+                       value = 10,
+                       width = "100%")
     )
   )
 }
