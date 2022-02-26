@@ -64,6 +64,7 @@ app_ui <- function(request) {
                     and Jaime Blais, on eGFR decline with canagliflozin
                     (<a href='https://pubmed.ncbi.nlm.nih.gov/33340064/'
                     target='_blank'>Diabetes Ther, 2021, 12(2):4-99-508</a>).
+              Please note that this Shiny app is implemented independently of these authors and all errors in this app, which comes without any warranty, are our own.
               </li>
               <li>Time spent on  dialysis is the time between initiation of
                     dialysis and death, assuming no competing risks. Expected
