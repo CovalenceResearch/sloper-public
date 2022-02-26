@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 # slopeR
 
-*slopeR* is a Shiny app designed to calculate time to dialysis and associated costs from estimated glomerular filtration rates (eGFR), for up to two treatments. The calculation is based on a 2021 article by [Durkin and Blais](https://pubmed.ncbi.nlm.nih.gov/33340064/). Please note that this Shiny app is implemented independently of these authors and all errors in this app, which comes without any warranty, are our own.
+*slopeR* is a [Shiny app](http://cloud.covalence-research.com/sloper/) designed to calculate time to dialysis and associated costs from estimated glomerular filtration rates (eGFR), for up to two treatments. The calculation is based on a 2021 article by [Durkin and Blais](https://pubmed.ncbi.nlm.nih.gov/33340064/). Please note that this Shiny app is implemented independently of these authors and all errors in this app, which comes without any warranty, are our own.
 
 # How it works
 
