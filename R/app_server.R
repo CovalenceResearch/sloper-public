@@ -99,6 +99,4 @@ app_server <- function(input, output, session) {
     acute_year = acute_year,
     trial_end_year = trial_end_year
   )
-
-  ## Population
 }
