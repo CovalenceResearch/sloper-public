@@ -15,14 +15,13 @@ app_ui <- function(request) {
         sidebarPanel(width = 3,
           h4("Time points"),
           mod_time_points_ui("time_points_ui_1"),
-          h4(HTML("eGFR (mL/min/1.73m<sup>2</sup>)")),
-          mod_egfr_data_ui("egfr_data_ui_1"),
           h4("Treatments"),
           splitLayout(
             mod_tx_ui("tx_ui_1", tx_value = "Tx 1"),
             mod_tx_ui("tx_ui_2", tx_value = "Tx 2")
             ),
           h4("Population"),
+          mod_egfr_data_ui("egfr_data_ui_1"),
           numericInput("base_age",
                        "Baseline age (years)",
                        value = 60,
