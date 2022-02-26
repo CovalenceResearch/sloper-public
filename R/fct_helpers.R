@@ -21,14 +21,14 @@ numericInputSlope <- function(id, label = NULL) {
 #' @return UI element
 #' 
 #' @noRd
-numericInputEGFR <- function(id, label = NULL, value = value) {
+numericInputEGFR <- function(id, label = NULL, value = value, width = width) {
   numericInput(id,
                label = label,
                min = 0,
                max = 130,
                value = value,
                step = 1,
-               width = "100%")
+               width = width)
 }
 #' Text input for treatment labels
 #' 
