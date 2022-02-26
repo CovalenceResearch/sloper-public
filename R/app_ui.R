@@ -65,9 +65,9 @@ app_ui <- function(request) {
                     dialysis and death, assuming no competing risks. Expected 
                     remaining life-years of patients with 
                     ESRD on dialysis come from  
-                    <a href='https://adr.usrds.org/2020/end-stage-renal-disease/5-mortality' 
-                    target='_blank'>2020 USRDS Annual Data Report, ESRD 
-                    Volume, Ch. 5</a> and are from 2018. Data were averaged, 
+                    <a href='https://adr.usrds.org/2021/end-stage-renal-disease/6-mortality' 
+                    target='_blank'>2021 USRDS Annual Data Report, ESRD 
+                    Volume, Ch. 6</a> and are from 2019. Data were averaged, 
                     by age group, across sex.
               </li>
               <li>Dialysis costs are the product of annual dialysis cost and 
