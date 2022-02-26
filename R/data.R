@@ -1,6 +1,6 @@
-#' USRDS 2020 remaining life expectancy in people with ESRD
+#' USRDS 2021 remaining life expectancy in people with ESRD
 #'
-#' A dataset compiled from the USRDS Annual Data Report (ADR) for 2020
+#' A dataset compiled from the USRDS Annual Data Report (ADR) for 2021
 #' containing the remaining life expectancy of people with ESRD.
 #'
 #' @format A tibble with 10 rows and 10 variables: \describe{
@@ -21,6 +21,6 @@
 #'   }
 #'
 #' @source
-#'   \url{"https://adr.usrds.org/2020/end-stage-renal-disease/5-mortality"}
+#'   \url{"https://adr.usrds.org/2021/end-stage-renal-disease/6-mortality"}
 #'   
-"usrds_esrd_mort_2018"
+"usrds_esrd_mort_2019"
