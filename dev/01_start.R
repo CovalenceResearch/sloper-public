@@ -19,13 +19,14 @@
 ## to change the name in the app_sys() function in app_config.R /!\
 ## 
 golem::fill_desc(
-  pkg_name = "sloper", # The Name of the package containing the App 
-  pkg_title = "A Simple Calculator to Project Dialysis Costs Based on eGFR Slopes", # The Title of the package containing the App 
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App 
-  author_first_name = "Johannes", # Your First Name
-  author_last_name = "Pöhlmann", # Your Last Name
-  author_email = "poehlmann@covalence-research.com", # Your Email
-  repo_url = "https://github.com/jpoehl/sloper.git" # The URL of the GitHub Repo (optional) 
+  pkg_name = "sloper",
+  pkg_title = "A Simple Calculator to Project Dialysis Costs Based on eGFR Slopes",
+  pkg_description = "This app provides a Shiny implementation of Durkin and Blais's 2021 paper on predicting dialysis costs from eGFR slopes.",
+  author_first_name = "Johannes",
+  author_last_name = "Pöhlmann",
+  author_orcid = "0000-0002-8065-755X",
+  author_email = "poehlmann@covalence-research.com",
+  repo_url = "https://github.com/CovalenceResearch/sloper"
 )     
 
 ## Set {golem} options ----
@@ -33,7 +34,7 @@ golem::set_golem_options()
 
 ## Create Common Files ----
 ## See ?usethis for more information
-usethis::use_proprietary_license("Covalence Research Ltd")  # You can set another license here
+usethis::use_mit_license("Covalence Research Ltd")
 usethis::use_readme_rmd( open = FALSE )
 usethis::use_code_of_conduct()
 usethis::use_lifecycle_badge( "Experimental" )
