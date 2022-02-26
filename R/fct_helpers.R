@@ -1,4 +1,4 @@
-#' Numeric input for eGFR slopes 
+#' Numeric input for eGFR slopes
 #'
 #' @description A function to take numeric values for eGFR slopes.
 #'
@@ -7,41 +7,44 @@
 #' @noRd
 numericInputSlope <- function(id, label = NULL) {
   numericInput(id,
-               label = label,
-               min = -20,
-               max = 20,
-               value = -2,
-               step = 0.01,
-               width = "100%")
+    label = label,
+    min = -20,
+    max = 20,
+    value = -2,
+    step = 0.01,
+    width = "100%"
+  )
 }
 #' Numeric input for absolute eGFR values
-#' 
+#'
 #' @description  A function to take numeric values for eGFR.
-#' 
+#'
 #' @return UI element
-#' 
+#'
 #' @noRd
 numericInputEGFR <- function(id, label = NULL, value = value, width = width) {
   numericInput(id,
-               label = label,
-               min = 0,
-               max = 130,
-               value = value,
-               step = 1,
-               width = width)
+    label = label,
+    min = 0,
+    max = 130,
+    value = value,
+    step = 1,
+    width = width
+  )
 }
 #' Text input for treatment labels
-#' 
+#'
 #' @description A function to take treatment label inputs.
-#' 
+#'
 #' @return UI element
-#' 
+#'
 #' @noRd
 textInputTx <- function(id, label = NULL, tx_value = "Treatment x") {
   textInput(id,
-            label = label,
-            value = tx_value,
-            width = "100%")
+    label = label,
+    value = tx_value,
+    width = "100%"
+  )
 }
 #' Cost calculation
 #'
