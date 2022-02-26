@@ -11,7 +11,7 @@ A tibble with 10 rows and 10 variables: \describe{
   \item{age_min}{Minimum age in each age group.}
   \item{age_max}{Maximum age in each age group.}
   \item{group_years}{Length of age groups.}
-  \item{dialysis_female}{Remaining life expectancy in women with ESRD.} 
+  \item{dialysis_female}{Remaining life expectancy in women with ESRD.}
   \item{dialysis_male}{Remaining life expectancy in men with ESRD.}
   \item{remaining_years}{Remaining life expectancy
   averaged across women and men with ESRD.}
