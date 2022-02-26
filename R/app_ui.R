@@ -10,7 +10,7 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      titlePanel("slopeR: Calculator for Time to Dialysis and Associated Costs"),
+      titlePanel("slopeR: Calculate Time to Dialysis and Associated Costs"),
       sidebarLayout(
         sidebarPanel(
           width = 3,
