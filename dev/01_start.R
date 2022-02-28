@@ -26,7 +26,7 @@ golem::fill_desc(
   author_last_name = "Pöhlmann",
   author_orcid = "0000-0002-8065-755X",
   author_email = "poehlmann@covalence-research.com",
-  repo_url = "https://github.com/CovalenceResearch/sloper"
+  repo_url = "https://github.com/CovalenceResearch/sloper-public.git"
 )     
 
 ## Set {golem} options ----
