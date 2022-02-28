@@ -8,8 +8,8 @@ designed to calculate time to dialysis and associated costs from
 estimated glomerular filtration rates (eGFR), for up to two treatments.
 The calculation is based on a 2021 article by [Durkin and
 Blais](https://pubmed.ncbi.nlm.nih.gov/33340064/). Please note that this
-Shiny app is implemented independently of these authors and all errors
-in this app, which comes without any warranty, are our own.
+Shiny app is implemented independently of these authors and any error in
+this app, which comes without any warranty, is our own.
 
 # How it works
 
