@@ -3,7 +3,7 @@
 
 # slopeR
 
-*slopeR* is a [Shiny app](http://cloud.covalence-research.com/sloper/)
+[*slopeR*](http://cloud.covalence-research.com/sloper/) is a Shiny app
 designed to calculate time to dialysis and associated costs from
 estimated glomerular filtration rates (eGFR), for up to two treatments.
 The calculation is based on a 2021 article by [Durkin and
@@ -70,10 +70,12 @@ performed).
 The calculation returns two outputs in the Shiny app:
 
 -   A **table**, which contains, for each treatment and slope
-    (combinations of treatment and slope each form a row): – Time to
-    dialysis (TTD) in years and the difference in TTD between treatments
-    – Age at dialysis initiation – Time on dialysis – Costs and
-    incremental costs for dialysis
+    (combinations of treatment and slope each form a row):
+    -   Time to dialysis (TTD) in years and the difference in TTD
+        between treatments
+    -   Age at dialysis initiation
+    -   Time on dialysis
+    -   Costs and incremental costs for dialysis
 -   A **figure**, which shows eGFR trajectories for each treatment and
     user-specified eGFR value until the dialysis intiation threshold is
     reached.
