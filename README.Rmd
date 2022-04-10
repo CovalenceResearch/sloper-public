@@ -43,9 +43,9 @@ Finally, you must specify the **annual dialysis cost** and the **annual discount
 
 The calculation returns two outputs in the Shiny app:
 
-- A **table**, which contains, for each treatment and slope (combinations of treatment and slope each form a row):
--- Time to dialysis (TTD) in years and the difference in TTD between treatments
--- Age at dialysis initiation
--- Time on dialysis
--- Costs and incremental costs for dialysis
-- A **figure**, which shows eGFR trajectories for each treatment and user-specified eGFR value until the dialysis intiation threshold is reached.
+* A **table**, which contains, for each treatment and slope (combinations of treatment and slope each form a row):
+    + Time to dialysis (TTD) in years and the difference in TTD between treatments
+    + Age at dialysis initiation
+    + Time on dialysis
+    + Costs and incremental costs for dialysis
+* A **figure**, which shows eGFR trajectories for each treatment and user-specified eGFR value until the dialysis intiation threshold is reached.
